@@ -3,7 +3,7 @@ import { ActivityIndicator, FlatList, StyleSheet, Text, View } from "react-nativ
 import RecentEpisodePreview from "../Preview/RecentEpisodePreview";
 
 
-const url = 'https://api.consumet.org/anime/gogoanime/recent-episodes';
+const url = 'https://animxer-api-bids.vercel.app/anime/gogoanime/recent-episodes';
 
 const RecentAnime = () =>{
 
