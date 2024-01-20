@@ -3,7 +3,7 @@ import { ActivityIndicator, FlatList, StyleSheet, Text, View } from "react-nativ
 import AiringPreview from "../Preview/AiringPreview";
 
 
-let url = "https://api.consumet.org/anime/gogoanime/top-airing";
+let url = "https://animxer-api-bids.vercel.app/anime/gogoanime/top-airing";
 
 const Films = ()=>{
     let [isloading, setIsLoading] = useState(true)
