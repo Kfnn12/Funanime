@@ -22,7 +22,7 @@ const SearchData = () =>{
         async function fetchData(){
                 setLoading(true);
                 setResult([]);
-                const data = await fetch(`https://api.consumet.org/anime/gogoanime/${debounceSearch}?page={number}`)
+                const data = await fetch(`https://animxer-api-bids.vercel.app/anime/gogoanime/${debounceSearch}?page={number}`)
                 .then(res => res.json());
                 setResult(data.results);
                 setLoading(false)
